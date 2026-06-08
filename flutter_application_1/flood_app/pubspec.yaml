@@ -1,0 +1,36 @@
+name: flood_app
+description: Simple ESP32 Flood Monitoring System
+publish_to: "none"
+
+environment:
+  sdk: ">=3.7.0 <4.0.0"
+  flutter: ">=3.7.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 🌐 API communication
+  http: ^1.2.2
+
+  # 🎨 UI icons
+  cupertino_icons: ^1.0.8
+
+  # 📊 Graphs (IMPORTANT for your project)
+  fl_chart: ^0.68.0
+
+  # 🧠 Time formatting (history timestamps)
+  intl: ^0.19.0
+
+  # ✨ UI enhancements (optional but pro look)
+  google_fonts: ^6.2.1
+  flutter_animate: ^4.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
